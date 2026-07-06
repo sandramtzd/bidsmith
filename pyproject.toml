@@ -1,0 +1,11 @@
+[project]
+name = "bidsmith"
+version = "1.0.0"
+description = "Secure Multi-Agent Engineering Tender Orchestrator"
+dependencies = [
+    "pytest>=7.0.0"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
